@@ -26,7 +26,7 @@ class LoginPage extends StatelessWidget {
             Container(
               height: MediaQuery.of(context).size.height - 170,
               decoration: const BoxDecoration(
-                  color: branquinho,
+                  color: background,
                   borderRadius:
                       BorderRadius.only(topLeft: Radius.circular(75))),
               child: Column(
@@ -35,7 +35,7 @@ class LoginPage extends StatelessWidget {
                   const Text(
                     'Login',
                     style: TextStyle(
-                      color: mainColor,
+                      color: title,
                       fontWeight: FontWeight.w800,
                       fontSize: 35,
                       fontFamily: titleFont,
@@ -64,7 +64,7 @@ class LoginPage extends StatelessWidget {
                   const ButtonWidget(
                       buttonColor1: mainColor,
                       textoButton: 'Login',
-                      colorTxt: branquinho),
+                      colorTxt: bntColor),
                   InkWell(
                     onTap: () {
                       AppNavigator.replace(context, const SignUpPage(), null);
@@ -76,7 +76,7 @@ class LoginPage extends StatelessWidget {
                               text: "Don't have any account? ",
                               style: TextStyle(
                                   fontSize: 16,
-                                  color: pretin,
+                                  color: text,
                                   fontFamily: runingFont)),
                           TextSpan(
                               text: 'Sign Up',

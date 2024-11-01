@@ -13,7 +13,7 @@ class InputWidget extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.only(left: 16),
       decoration: const BoxDecoration(
-          color: branquinho,
+          color: background,
           boxShadow: [
             BoxShadow(
                 color: cinzinha,

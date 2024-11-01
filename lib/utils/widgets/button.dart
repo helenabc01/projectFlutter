@@ -15,7 +15,7 @@ class ButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {
-        buttonColor1 == mainColor ? second : mainColor;
+        buttonColor1 == mainColor ? secondary : mainColor;
       },
       style: ElevatedButton.styleFrom(
           backgroundColor: buttonColor1,
